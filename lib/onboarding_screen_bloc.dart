@@ -8,6 +8,4 @@ class OnboardingScreenBloc extends Bloc<OnboardingScreenEvents, OnboardingScreen
       emit(OnboardingScreenStates(page: state.page));
     });
   }
-  
-  
 }
